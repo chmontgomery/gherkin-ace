@@ -1,0 +1,32 @@
+{
+  "name": "gherkin-ace",
+  "version": "0.0.0",
+  "description": "Builds src consumable by the ace editor for syntax checking of gherkin files",
+  "license": "MIT",
+  "repository": "chmontgomery/gherkin-ace",
+  "author": {
+    "name": "Chris Montgomery",
+    "email": "chr.montgomery@gmail.com",
+    "url": "chrismontgomery.info"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ace",
+    "aceeditor",
+    "gherkin",
+    "parser"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

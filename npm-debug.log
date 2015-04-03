@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/montgomeryc/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/montgomeryc/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'gherkin3' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'gherkin3', null ]
+6 verbose cache add name=undefined spec="gherkin3" args=["gherkin3",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gherkin3',
+7 verbose parsed url   path: 'gherkin3',
+7 verbose parsed url   href: 'gherkin3' }
+8 silly lockFile e3e5c397-gherkin3 gherkin3
+9 verbose lock gherkin3 /Users/montgomeryc/.npm/e3e5c397-gherkin3.lock
+10 silly lockFile e3e5c397-gherkin3 gherkin3
+11 silly lockFile e3e5c397-gherkin3 gherkin3
+12 verbose addNamed [ 'gherkin3', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d2798de4-gherkin3 gherkin3@
+15 verbose lock gherkin3@ /Users/montgomeryc/.npm/d2798de4-gherkin3.lock
+16 silly addNameRange { name: 'gherkin3', range: '*', hasData: false }
+17 verbose request where is /gherkin3
+18 verbose request registry http://registry.npmjs.org/
+19 verbose request id 7418354480dcc552
+20 verbose url raw /gherkin3
+21 verbose url resolving [ 'http://registry.npmjs.org/', './gherkin3' ]
+22 verbose url resolved http://registry.npmjs.org/gherkin3
+23 verbose request where is http://registry.npmjs.org/gherkin3
+24 info trying registry request attempt 1 at 13:52:48
+25 http GET http://registry.npmjs.org/gherkin3
+26 http 404 http://registry.npmjs.org/gherkin3
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Fri, 03 Apr 2015 18:52:48 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-atl6223-ATL',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1428087168.617025,VS0,VE114' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Fri, 03 Apr 2015 18:52:48 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1428087168.617025,VS0,VE114' } ]
+29 silly lockFile d2798de4-gherkin3 gherkin3@
+30 silly lockFile d2798de4-gherkin3 gherkin3@
+31 error 404 404 Not Found: gherkin3
+31 error 404
+31 error 404 'gherkin3' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'gherkin-ace'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.1.0
+33 error command "/Users/montgomeryc/.nvm/v0.10.33/bin/node" "/Users/montgomeryc/.nvm/v0.10.33/bin/npm" "install" "--save" "gherkin3"
+34 error cwd /Users/montgomeryc/Projects/gherkin-ace
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
